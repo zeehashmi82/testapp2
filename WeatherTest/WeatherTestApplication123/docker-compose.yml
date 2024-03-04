@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  weatherapp12345:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "81:81"
